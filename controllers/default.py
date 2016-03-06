@@ -21,4 +21,5 @@ from __future__ import print_function
 
 
 def index():
-    return "Odoo web2py Connector"
+    response.flash = T("Odoo web2py Connector")
+    return dict(message=T('Welcome to Odoo web2py Connector!'))
